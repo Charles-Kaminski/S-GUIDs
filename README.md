@@ -1,8 +1,6 @@
 
 # S-GUIDs (Simple Globally Unique IDs)
-Charles Kaminski, 2015
-
-Updated for release, 2018
+Charles Kaminski, 2015. Updated for release, 2018.
 ## Introduction
 The Simple Globally Unique Ids described below have been engineered specifically for the needs of LexisNexis Risk Solutions for use in our multitude of products and systems around the globe.  Their intended use is for both customer-facing transaction IDs as well as for internal subsystem tracking ID’s.  
 
