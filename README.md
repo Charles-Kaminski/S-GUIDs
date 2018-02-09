@@ -151,11 +151,11 @@ For 96 bits of random data (an expansion of 8 bits), the following holds:
 |1E9|5.26E14|1.75E-21|1.93E-09|
 |1E10|5.26E15|1.75E-19|1.93E-07|
 |1E11|5.26E16|1.75E-17|1.93E-05|
-|***1E12***|5.26E17|1.75E-15|1.93E-03|
+|***1E12***|***5.26E17***|***1.75E-15***|***1.93E-03***|
 
 ## Real World Performance
 
-The file S-GUID_Analysis.ipynb in the GitHub repository summarizes the initial study of S-GUIDs generated in a production system.  It shows that the math is correct; that predictions match near perfectly with the real world environment.
+The file S-GUID_Analysis.ipynb in the GitHub repository summarizes the initial study of S-GUIDs generated in a production system.  It shows that predictions match near perfectly with the real world environment.
 
 ## Conclusion
 
