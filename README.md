@@ -131,6 +131,7 @@ p = 1 – ((1 – p1)^T)
 ### Results
 
 For 88 bits of random data, the following holds:
+
 |Transactions/Minute|Transactions/Year|p1|p (T=35 years)
 |--|--|--|--|
 |1E6|5.26E11|3.88E-25|4.28E-13|
@@ -141,6 +142,7 @@ For 88 bits of random data, the following holds:
 |1E11|5.26E16|4.49E-15|4.94E-03|
 
 For 96 bits of random data (an expansion of 8 bits), the following holds:
+
 |Transactions/Minute|Transactions/Year|p1|p (T=35 years)
 |--|--|--|--|
 |1E6|5.26E11|1.51E-27|1.67E-15|
