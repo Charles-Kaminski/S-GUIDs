@@ -44,9 +44,9 @@ Size: Byte [16]
 1.	Copy the 11 bytes of random data from step 4 into the last 11 bytes for the S-GUID.
 1.	Return the allocated 16 byte variable from step 1 as the binary form of the S-GUID.
 
-### Encoding Scheme
-
 The binary form can be used internally for compactness and performance. On most systems, the preferred binary form is 16 bytes of contiguous data.  On some systems it may be easier to internally represent the binary form of the Global Transaction ID as 2 unsigned long longs of 8 bytes each.
+
+### Encoding Scheme
 
 Base58 encoding is implemented for readability and customer facing solutions.  Base58 encoding is used to balance compactness as well as readability.  Certain confusing characters have been removed out of the standard Base58 encoding scheme.  As such, Base58 includes all alphanumeric characters except for "0", "I", "O", and "l".  This can be confusing to see in print.  See the next line to see what characters are included.
 
