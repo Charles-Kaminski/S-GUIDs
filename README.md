@@ -48,7 +48,7 @@ The binary form can be used internally for compactness and performance. On most 
 
 ### Encoding Scheme
 
-Base58 encoding is implemented for readability and customer facing solutions.  Base58 encoding is used to balance compactness as well as readability.  Certain confusing characters have been removed out of the standard Base58 encoding scheme.  As such, Base58 includes all alphanumeric characters except for "0", "I", "O", and "l".  This can be confusing to see in print.  See the next line to see what characters are included.
+Base58 encoding is implemented for readability and customer facing solutions.  Base58 encoding is used to balance compactness as well as readability.  Certain confusing characters have been removed out of the standard Base58 encoding scheme.  As such, Base58 includes all alphanumeric characters except for "0", "I", "O", and "l".  This can be confusing to see in print.  See the next line to understand what characters are included.
 
     static const char* pszBase58 = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";
 
