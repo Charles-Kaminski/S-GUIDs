@@ -106,7 +106,7 @@ The math below (similarly represented in the file S-GUID_Probability_Calculation
 
 ### Probability of 1 collision in a millisecond
 
-p1 = probability of 1 collision in 1 millisecond.  Milliseconds is chosen here because the time component of the S-GUID ensures uniqueness across a millisecond; meaning we initially only need to consider collisions within the millisecond timeframe.  When transactions and logs are archived the date-time stamp to ensure uniqueness even after the time component repeats (every 35 years).  
+p1 = probability of 1 collision in 1 millisecond.  Milliseconds is chosen here because the time component of the S-GUID ensures uniqueness across a millisecond.  
 
 k = number of transactions in a millisecond
 
