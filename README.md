@@ -84,7 +84,7 @@ S-GUIDs depends on random data.  One of the criticism I often hear is that compu
 
 ### “So you’re telling me there’s a chance”
 
-This is the criticism I hear most often, so I'm going go into a bit more detail.  Linked here is an entertaining 2 minute video on the challenges of [communicating probabilities](https://www.youtube.com/watch?v=-3QldN3EnBI). 
+This is the criticism I hear most often, so I'm going go into a bit more detail here.  Also, linked here is an entertaining 2 minute video on [the challenges of communicating probabilities](https://www.youtube.com/watch?v=-3QldN3EnBI). 
 
 The math quantifies the non-zero probability, no matter how small, there will be a collision; meaning two identical S-GUIDs will be generated.  The math here isn’t telling us to worry.  It’s telling us not to worry.
 
