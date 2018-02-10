@@ -27,7 +27,7 @@ LexisNexis Risk Solutions teams should link to existing code held in a central r
 
 Size: Byte [16]
 
-![Byte Layout](http://example.com/bytelayout.png) 
+![Byte Layout](https://github.com/Charles-Kaminski/S-GUIDs/blob/master/S_GUID_Layout.png) 
 
 **Time Component** – Number of milliseconds since the UNIX epoch (January 1st, 1970).
 
