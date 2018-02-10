@@ -44,7 +44,7 @@ Size: Byte [16]
 1.	Copy the 11 bytes of random data from step 4 into the last 11 bytes for the S-GUID.
 1.	Return the allocated 16 byte variable from step 1 as the binary form of the S-GUID.
 
-The binary form can be used internally for compactness and performance. On most systems, the preferred binary form is 16 bytes of contiguous data.  On some systems it may be easier to internally represent the binary form of the Global Transaction ID as 2 unsigned long longs of 8 bytes each.
+The binary form can be used internally for compactness and performance. On most systems, the preferred binary form is 16 bytes of contiguous data.  On some systems it may be easier to internally represent the binary form of the Global Transaction ID as 2 unsigned long longs of 8 bytes each or two BIGINTs.
 
 ### Encoding Scheme
 
