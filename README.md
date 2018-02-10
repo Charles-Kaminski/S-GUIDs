@@ -100,9 +100,13 @@ Also, math will allow us to calculate the probability that some small portion of
 
 The reality is that these infinitesimally small probabilities, correctly interpreted, are confirming what you already know.  You will not see diamonds evaporate before your eyes at room temperature, naturally occurring radioactive minerals are quite safe from spontaneous detonation, and in the same vein, I am not worried about collisions of 128 bit S-GUIDs when executed at a rate below 100 billion per minute.  We continue to use S-GUIDs with great success and no issues.
 
+## Real World Performance
+
+The Jupyter notebook [S-GUID_Analysis.ipynb](https://github.com/Charles-Kaminski/S-GUIDs/blob/master/Jupyter_Notebooks/S-GUID_Analysis.ipynb) summarizes the initial study of S-GUIDs generated in a production system.  It shows that predictions match near perfectly with the real world environment.
+
 ## The Math
 
-The math below (similarly represented in the file S-GUID_Probability_Calculations.ipynb) is broken down into two sections.  First I calculate the probability that a single collision will occur in any single millisecond.  Then I apply that probability over and over again for every millisecond across a particular time frame.  Think of it like this, what’s the probability you will win at BINGO?  Now what’s the probability you will win if you play again and again?  They are different.  The second calculation below accounts for the fact you are playing a game of BINGO you can never hope to win again and again.
+The math below (similarly represented in the Jupyter notebook [S-GUID_Probability_Calculations.ipynb](https://github.com/Charles-Kaminski/S-GUIDs/blob/master/Jupyter_Notebooks/S-GUID_Probability_Calculations.ipynb)) is broken down into two sections.  First I calculate the probability that a single collision will occur in any single millisecond.  Then I apply that probability over and over again for every millisecond across a particular time frame.  Think of it like this, what’s the probability you will win at BINGO?  Now what’s the probability you will win if you play again and again?  They are different.  The second calculation below accounts for the fact you are playing a game of BINGO you can never hope to win again and again.
 
 ### Probability of 1 collision in a millisecond
 
@@ -150,10 +154,6 @@ For 96 bits of random data (an expansion of 8 bits), the following holds:
 |1E10|5.26E15|1.75E-19|1.93E-07|
 |1E11|5.26E16|1.75E-17|1.93E-05|
 |***1E12***|***5.26E17***|***1.75E-15***|***1.93E-03***|
-
-## Real World Performance
-
-The file S-GUID_Analysis.ipynb in the GitHub repository summarizes the initial study of S-GUIDs generated in a production system.  It shows that predictions match near perfectly with the real world environment.
 
 ## Conclusion
 
